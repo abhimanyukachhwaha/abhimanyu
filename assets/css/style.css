@@ -122,9 +122,6 @@ h1, h2, h3, h4, h5, h6 {
 .vbox-next
 {display: none;} 
 
-section#resume {
-  background-image: url('../img/work\ process.jpg');
-}
 
 @media (max-width: 1199px) {
   #header {
