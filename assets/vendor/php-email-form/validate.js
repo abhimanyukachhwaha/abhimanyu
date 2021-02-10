@@ -124,6 +124,7 @@
   });
 
   function php_email_form_submit(this_form, action, data) {
+    alert('abcdef');
     $.ajax({
       type: "POST",
       url: action,
