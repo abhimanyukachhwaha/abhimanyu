@@ -1,6 +1,6 @@
 <?php
 
-
+echo "jhukjjkgjgjk";
 
    if($_POST)
 {
@@ -47,8 +47,7 @@ $mail->Mailer = "smtp";
 		 //$mail->Username   ="info@rathi.com";  
 		//$mail->Password   ="your_gmail_password";
             	
-	
-$mail->isSMTP();
+
 $mail->Host = 'listserv.rathi.com';
 $mail->SMTPAuth = false;
 $mail->SMTPAutoTLS = false; 
