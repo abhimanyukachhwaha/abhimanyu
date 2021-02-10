@@ -38,7 +38,7 @@ $mail->Mailer = "smtp";
     
     try { 
 	
-      //$mail->SMTPDebug = 2;									 
+      $mail->SMTPDebug = 2;									 
          //$mail->IsSMTP(); 
 		 //$mail->isHTML(true);
 		 //$mail->Host       = "listserv.rathi.com";      
